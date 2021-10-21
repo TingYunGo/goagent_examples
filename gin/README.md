@@ -7,10 +7,10 @@ $ go build
 ```
 ### 运行:
 * 步骤1: 配置
-  编辑tingyun.conf文件, 修改license_key 为实际的授权序列号, 修改collector.address 为实际的collector地址
+  编辑tingyun.conf文件, 修改license_key 为实际的授权序列号, 修改collector.address 为实际的collector地址。
 
 * 步骤2: 运行
-  设置环境变量并运行
+  设置环境变量并运行:
 ```bash
 $ export TINGYUN_GO_APP_CONFIG=tingyun.conf
 $ ./gin_route
@@ -25,5 +25,5 @@ $ curl "http://127.0.0.1:6666/welcome?firstname=networkbench&&lastname=tingyun"
 ```
 
 ### 应用性能数据查看
-  登陆听云报表后台,查看应用 gin_route 数据
+  在配置正确设置的情况下，应用程序启动后，登陆听云报表后台, 就能看到应用 gin_route 的数据了。
 

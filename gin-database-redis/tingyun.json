@@ -1,0 +1,15 @@
+{
+  "nbs.agent_enabled" : true,
+  "nbs.license_key" : "JDvG8fkrlB8NQtrB",
+  "nbs.log_file_name" : "agent.log",
+  "nbs.audit" : false,
+  "nbs.level" : "info",
+  "nbs.host" : "172.16.100.14:7605",
+  "-nbs.host" : "10.128.2.52:7665",
+  "nbs.max_log_count": 5,
+  "nbs.max_log_size": 10,
+  "nbs.action_cache_max" : 3000,
+  "nbs.action_report_max" : 1000,
+  "nbs.ssl" : false,
+  "nbs.savecount" : 5
+}

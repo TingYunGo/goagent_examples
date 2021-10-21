@@ -14,18 +14,19 @@ $ go build
 ```bash
 $ export TINGYUN_GO_APP_CONFIG=tingyun.conf
 ```
-  步骤3: 根据命令提示,设置redis 和 mongodb的地址。
+  步骤3: 根据命令提示,设置redis 和 数据库的地址。
 ```bash
-$ ./beego-mongodb-redis
+$ ./gin-database-redis
 ```
 
 ### 访问测试
   使用浏览器或者curl访问如下链接: <br/>
-  http://localhost:8080/insert <br/>
-  http://localhost:8080/query_one 
+  初始化表结构: http://localhost:8080/init <br/>
+  添加测试数据: http://localhost:8080/insert <br/>
+  读数据: http://localhost:8080/query_one 
   
   
 
 ### 应用性能数据查看
-  在配置正确设置的情况下，应用程序启动后，登陆听云报表后台, 就能看到应用 beego-mongodb-redis 的数据了。
+  在配置正确设置的情况下，应用程序启动后，登陆听云报表后台, 就能看到应用 gin-database-redis 的数据了。
 
