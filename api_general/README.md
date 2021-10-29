@@ -23,8 +23,8 @@ $ ./api_general &
   使用本例相邻文件夹提供的udp_client发送数据测试。
 
 ```bash
-$ cd ../udp_test && go build
-$ ./udp_test
+$ cd ../udp_client && go build
+$ ./udp_client
 ```
 
 ### 应用性能数据查看
